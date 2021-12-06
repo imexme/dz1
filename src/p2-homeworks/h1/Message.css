@@ -1,0 +1,30 @@
+.message {
+background-color: darkseagreen;
+    width: 450px;
+    hight: 170px;
+}
+
+.messagecont{
+    background-color: black;
+    margin-left: 70px;
+    hight: 190px;
+
+
+}
+
+.time{
+color:green;
+}
+
+.singlemessage{
+    color: palegreen;
+}
+
+
+.name{
+    color:mediumpurple;
+}
+
+.ava{
+    background-color: darkseagreen;
+}

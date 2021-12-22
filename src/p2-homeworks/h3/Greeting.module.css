@@ -3,5 +3,10 @@
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+}
+.button {
+    background: aquamarine;
+    border: 2px solid yellowgreen;
+
 }

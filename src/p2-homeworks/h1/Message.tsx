@@ -3,6 +3,9 @@ import HW1 from "./HW1";
 import './Message.css'
 
 function Message(props: any) {
+
+
+
     return (
 
         <div className={"message"}>

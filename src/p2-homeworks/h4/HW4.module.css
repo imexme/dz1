@@ -1,13 +1,19 @@
 .blue {
-    border-bottom: 5px solid blue;
-}
+background-color: lightgreen}
 
+/*.green {*/
+/*    border: 1px solid lightgreen;*/
+
+/*}*/
 .column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 29pt;
+    /*background-color: lightgreen*/
 }
 
 .testSpanError {
-    color: blue;
+    color: mediumvioletred;
+    border: 8px mediumvioletred;
 }

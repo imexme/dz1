@@ -1,7 +1,29 @@
 .default {
+    border-radius: 5px;
+    margin-bottom: 9px;
+    background-color: lightsteelblue;
+}
+
+
+.default:disabled {
+    background-color: lightgray;
+}
+
+.default:hover {
+    background-color: lightgreen;
+}
+
+.default:disabled:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.red{
+    border-radius: 15px;
+    background: lightcyan;
 
 }
 
-.red {
-    background: red;
+.red:hover {
+    background: salmon;
+    border-radius: 15px;
 }

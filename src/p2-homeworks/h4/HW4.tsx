@@ -4,8 +4,9 @@ import s from './HW4.module.css'
 import SuperButton from './common/c2-SuperButton/SuperButton'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
-function HW4() {
+export function HW4() {
     const [text, setText] = useState<string>('')
+    // const [text2, setText2] = useState<string>('')
     const error = text ? '' : 'error'
 
     const showAlert = () => {
@@ -29,16 +30,25 @@ function HW4() {
                     value={text}
                     onChangeText={setText}
                     onEnter={showAlert}
-                    error={error}
                     // spanClassName={s.testSpanError}
+                    error={error}
+
+
+
                 />
 
                 <SuperInputText
-                    className={s.blue} // проверьте, рабоет ли смешивание классов
+                     className={s.blue}
+                    //  value={text}
+                    //  onChangeText={setText}
+                    // onEnter={showAlert}
+                    // error={error}
+
+                    // spanClassName={s.testSpanError}
                 />
 
                 {/*----------------------------------------------------*/}
-
+<hr/>
                 <SuperButton>
                     default
                 </SuperButton>
@@ -49,6 +59,7 @@ function HW4() {
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
+                <hr/>
 
                 <SuperButton disabled>
                     disabled
@@ -60,11 +71,15 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    check me hard {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox
+                    //checked={checked}
+                               onChange={testOnChange}
+                >one more time
+            </SuperCheckbox>
             </div>
 
             <hr/>

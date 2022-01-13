@@ -34,11 +34,10 @@ export function HW4() {
                     error={error}
 
 
-
                 />
 
                 <SuperInputText
-                     className={s.blue}
+                    className={s.blue}
                     //  value={text}
                     //  onChangeText={setText}
                     // onEnter={showAlert}
@@ -48,7 +47,7 @@ export function HW4() {
                 />
 
                 {/*----------------------------------------------------*/}
-<hr/>
+                <hr/>
                 <SuperButton>
                     default
                 </SuperButton>
@@ -77,9 +76,9 @@ export function HW4() {
                 {/*// onChange тоже должен работать*/}
                 <SuperCheckbox
                     //checked={checked}
-                               onChange={testOnChange}
+                    onChange={testOnChange}
                 >one more time
-            </SuperCheckbox>
+                </SuperCheckbox>
             </div>
 
             <hr/>

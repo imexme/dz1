@@ -29,7 +29,10 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
         // onChange && onChange(e)
 
     }
+
+
     // сделайте так чтоб работал onChange и onChangeChecked
+
 
     const finalInputClassName = `${s.checkbox} ${className ? className : ''}`
 

@@ -1,0 +1,21 @@
+.superInput {
+    background: lightblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.errorInput {
+    border: 8px mediumvioletred;
+    border-radius: 5px;
+    background: lightcoral;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.blue {
+    background-color: lightgreen
+}
